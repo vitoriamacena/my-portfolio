@@ -1,0 +1,22 @@
+.container {
+   width: 100%;
+   height: 27rem;
+   border: 1px solid var(--bg-primary);
+}
+
+.presentation {
+    width: 75%;
+    margin-top: 12rem;
+    margin-left: 3.5rem;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.presentation p {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+

@@ -1,0 +1,138 @@
+.portfolio {
+  height: 100%;
+  overflow: hidden;
+  padding-top: 6rem;
+}
+
+.test {
+  height: 24rem;
+  overflow-y: hidden;
+}
+
+.project {
+  margin: 1rem 0;
+  width: 16rem;
+  height: 19rem;
+  border: 1px solid var(--text-secondary);
+  border-radius: 4%;
+  grid-template-rows: max-content;
+  cursor: pointer;
+}
+
+.project h5 {
+  text-align: center;
+  margin-top: 50%;
+  height: fit-content;
+  width: 15.9rem;
+  background: var(--text-secondary);
+  color: var(--bg-primary);
+}
+
+.test p {
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+  font-weight: 400;
+  position: relative;
+  margin-left: 3.5rem;
+  height: 1.6rem;
+}
+
+.title-bg::before:hover {
+  width: 12rem;
+}
+
+.title-bg::after:hover {
+  width: 20rem;
+}
+
+.projects {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    gap: 2rem;
+    display: grid;
+    grid-auto-flow: column;
+    height: 22rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+}
+
+ html .projects::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  html .projects::-webkit-scrollbar-thumb {
+    background-color: var(--text-secondary);    
+  }
+
+  html .projects::-webkit-scrollbar-thumb:active {
+    background-color: var(--bg-hover);
+  }
+  
+  html .projects::-webkit-scrollbar-track {
+    background-color: var(--bg-primary);
+    margin-left: 2.5rem;
+  }
+
+  html .projects {
+    scrollbar-color: var(--text-secondary) var(--bg-primary);
+    scrollbar-width: thin;
+  }
+
+  .snap {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 3.5rem;
+
+  }
+
+  .snap > * {
+    scroll-snap-align: start;  
+  }
+
+.slider {
+  min-width: 200%;
+  overflow: hidden;
+  position: relative;
+  height: 10.3rem;
+}
+
+.tech {
+  font-size: 6.5rem;
+}
+
+.slide-track {
+  margin-top: 1.5rem;
+  height: 10.3rem;
+  min-width: 200%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  animation: scroll 40s linear infinite;
+  gap: 200px;
+}
+
+@keyframes scroll {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+
+   .projects {
+    padding-left: 2rem;
+   }
+
+   .test p {
+    margin-left: 2rem;
+   }
+
+   html .projects::-webkit-scrollbar-track {
+    margin-left: 1.5rem;
+   }
+
+}

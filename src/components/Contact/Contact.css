@@ -1,0 +1,180 @@
+.form-container {
+    min-height: 100vh;
+    margin-bottom: 4rem;
+
+}
+
+.form-container p, form, h2, .content-right {
+    margin: 0 3.5rem;
+}
+
+.form-wrapper {
+    margin-top: 6rem;
+}
+
+.form-wrapper form {
+    max-width: 700px;
+    padding: 2rem 0;    
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 50px;
+}
+
+.content-right {
+    max-width: 500px;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+input[type="text"], [type= "email"], form textarea {
+    outline: none;
+    border: none;
+    background: var(--bg-secondary);
+    border-radius: 4px;
+}
+
+input[type="text"]:focus, [type= "email"]:focus, form textarea:focus {
+    border-bottom: 2px solid var(--text-primary);
+    transition: .1s;
+}
+
+input[type="text"], [type= "email"] {
+    height: 3.2rem;
+    padding-left: 20px;
+    font-size: 11pt;
+    color: var(--text-secondary);
+}
+
+.form-container form textarea {
+    height: 8rem;
+    padding-left: 20px;
+    font-size: 11pt;
+}
+
+.form-container form textarea, input[type="text"], [type= "email"] {
+    width: 100%;
+}
+
+.form-wrapper form {
+    display: grid;
+    grid-gap: 25px;
+}
+
+.form-wrapper p {
+    height: 1.6rem;
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: relative;
+}
+
+.side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.input-wrapper label {
+    margin-top: 13px;
+    position: absolute;
+    left: 20px;
+    pointer-events: none;
+    font-size: 12pt;
+    color: var(--text-tertiary);
+    transition: .2s;
+}
+
+textarea {
+    padding-top: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: none;
+    height: 10rem;
+    width: 100%;
+    color: var(--text-secondary);
+}
+
+input[type='text']:focus + label,
+input[type='email']:focus + label,
+input[type='text']:valid + label,
+input[type='email']:focus + label
+textarea:focus + label,
+textarea:valid + label {
+    font-size: 10pt;
+    transform: translate(-18px, -35px);
+    color: var(--text-secondary); 
+}
+
+.submit {
+    /* direction: rtl; */
+    position: relative;
+}
+
+.submit label {
+    top: 8px;
+    left: 17px;
+    position: absolute;
+    pointer-events: none;
+    font-size: 30pt;
+    color: var(--title-text);
+    transition: .2s;
+}
+
+input[type="submit"] {
+    width: 4rem;
+    height: 4rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--bg-secondary);
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+    transition: .2s;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    border: 1px solid var(--title-text);
+    background: var(--bg-primary);
+}
+
+@media only screen and ( max-width: 670px ) {
+    .side {
+        grid-template-columns: 1fr;
+    }
+
+    .form-wrapper {
+       padding-bottom: 0;
+       margin-top: 6rem
+    }
+
+    .form-container form {
+        padding-top: 0;
+    }
+
+    .form-container p, form, h2, .content-right {
+        margin: 0 2rem;
+    }
+}
+
+@media only screen and ( max-width: 900px ) {
+    .side {
+        grid-template-columns: 1fr;
+    }
+
+    .form-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .content-right {
+        min-height: 170px;
+        max-width: 700px;
+    }
+}
