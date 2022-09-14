@@ -12,8 +12,18 @@ const About = () => {
         <div className="about">  
            <div className='text'>
                 <p>
-                    Lorem ipsum dolor sit amet. Et placeat maxime est animi totam qui sapiente dolores. Hic sint velit aut accusantium libero qui saepe maiores sed harum voluptas et odio distinctio. Quo similique consequuntur est velit praesentium sed ipsum laudantium.
-                    Qui voluptatem doloremque hic omnis harum ut repellat sunt sit error perspiciatis ut quae explicabo est rerum sapiente. Rem libero molestiae nam consequatur Quis aut ducimus iusto vel laudantium velit.
+                    Focada em desenvolver soluções criativas que realmente agregam de forma a
+                    impactar pessoas e, de alguma forma, a sociedade.
+                    Acredito no trabalho em equipe e na geração de valor através dele.
+                    <br></br>
+                    <br></br>
+                    Desde menina, sempre fui apaixonada por tudo o que envolvia tecnologia e design
+                    e, hoje, tento unir códigos limpos e funcionais a projetos visualmente bonitos e
+                    agradáveis.
+                    <br></br>
+                    <br></br>
+                    No meu tempo livre, gosto de explorar o que há de melhor no mundo e ouvir uma boa
+                    música.
                 </p>
                 <div className='git-in'>
                   <a target="_blank" rel='noopener noreferrer' href="https://linkedin.com/in/vimmac"><FaLinkedin /></a>
