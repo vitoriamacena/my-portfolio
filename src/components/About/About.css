@@ -22,8 +22,10 @@
 .about {
     align-items: center;
     display: grid;
-    grid-template-columns: 3.8fr 2fr;
+    grid-template-columns: 4fr 2fr;
     font-size: 1.5rem;
+    /* gap: 8rem; */
+    /* border: 1px solid; */
 }
 
 #p {
@@ -35,18 +37,21 @@
 
 .text {
     color: var(--text-secondary);
-    padding-top: .3rem;
+    /* padding-top: .3rem; */
     font-size: 1.4rem;
 }
 
 img {
     border-radius: 4%;
-    width: 100%;    
+    width: 100%; 
+    height: 100%;
 }
 
 #picture {
-    width: 18rem;
-    height: 20.01rem; 
+    width: 21rem;
+    /* height: 20.01rem;  */
+    height: 25rem;
+    margin-right: 3.5rem;
 }
 
  .wrapper p, h2 {

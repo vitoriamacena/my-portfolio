@@ -1,6 +1,6 @@
 import './About.css';
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
-import Picture from '../../assets/vitoria-macena.jpeg'
+import Picture from '../../assets/vitoria-macena.jpg'
 
 const About = () => {
   return (
