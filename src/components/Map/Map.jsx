@@ -267,7 +267,7 @@ const Map = () => {
         { isLoaded ? (
         <GoogleMap
         options={mapStyles}
-          mapContainerStyle={{width: "100%", height: "100%", borderRadius: "10px"}}
+          mapContainerStyle={{width: "100%", height: "100%"}}
           center={position}
           zoom={9}
         >

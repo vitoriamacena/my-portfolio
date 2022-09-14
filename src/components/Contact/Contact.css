@@ -174,7 +174,8 @@ input[type="submit"]:focus {
     }
 
     .content-right {
-        min-height: 170px;
-        max-width: 700px;
+        min-height: 200px;
+        min-width: 100%;
+        margin-left: 0;
     }
 }
