@@ -17,8 +17,8 @@ const About = () => {
                     Acredito no trabalho em equipe e na geração de valor através dele.
                     <br></br>
                     <br></br>
-                    Desde menina, sempre fui apaixonada por tudo o que envolvia tecnologia e design
-                    e, hoje, tento unir códigos limpos e funcionais a projetos visualmente bonitos e
+                    Desde menina, sempre fui apaixonada por tudo o que envolvia tecnologia e design.
+                    Hoje, tento unir códigos limpos e funcionais a projetos visualmente bonitos e
                     agradáveis.
                     <br></br>
                     <br></br>
