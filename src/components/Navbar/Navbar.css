@@ -34,6 +34,10 @@ nav {
     z-index: 2;
 }
 
+#logo svg {
+    width: 3rem;
+}
+
 a {
     color: var(--text-secondary);
 }

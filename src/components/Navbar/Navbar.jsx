@@ -4,7 +4,6 @@ import { CgMenuRightAlt, CgClose } from 'react-icons/cg';
 import { MdLightMode } from 'react-icons/md';
 import { GiNightSleep } from 'react-icons/gi';
 import { Link } from 'react-scroll';
-import Logo from '../../assets/logo.svg';
 
 const Navbar = ({switchTheme, theme}) => {
 
@@ -18,9 +17,19 @@ const Navbar = ({switchTheme, theme}) => {
   return (
     <div id='navbar' className='nav'>
       <div id='logo'>
-          <a href='/'>
-            <img src={Logo} alt="" />
-          </a>
+        <a href='/'>
+          <svg
+            version="1.1" id="svg725" xmlns="http://www.w3.org/2000/svg" xmlnsvg="http://www.w3.org/2000/svg" viewBox="24.48 109.9 157.08 79.7">
+            <defs id="defs722"/>
+            <g id="layer1">
+            <rect fill="var(--text-primary)" strokeWidth="0.15419" fillOpacity="1" id="rect406-5-0-4" width="15.719183" height="85.415535" x="11.83689" y="111.72663" ry="10.424206" transform="matrix(-0.89000595,0.4559489,0.41110908,0.91158616,0,0)"/>
+            <rect fill="var(--text-primary)" strokeWidth="0.15419" fillOpacity="1" id="rect406-5-0-2" width="15.719183" height="85.415535" x="24.562889" y="-223.18886" ry="10.424206" transform="matrix(0.89000596,-0.4559489,-0.41110908,-0.91158616,0,0)"/>
+            <rect fill="var(--text-primary)" strokeWidth="0.15419 "fillOpacity="1" id="rect406-5-0-4-1" width="15.719183" height="85.415535" x="-137.55707" y="-141.83745" ry="10.424206" transform="matrix(-0.89000595,-0.4559489,0.41110908,-0.91158616,0,0)"/>
+            <rect fill="var(--text-primary)" strokeWidth="0.15419" fillOpacity="1" id="rect406-5-0-2-9" width="15.719183" height="85.415535" x="76.501373" y="-249.4642" ry="10.424206" transform="matrix(0.89000596,-0.4559489,-0.41110908,-0.91158616,0,0)"/>
+            <rect fill="var(--text-primary)" strokeWidth="0.15419" fillOpacity="1" id="rect406-5-0-4-1-9" width="15.719183" height="85.415535" x="-189.71861" y="-116.04501" ry="10.424206" transform="matrix(-0.89000595,-0.4559489,0.41110908,-0.91158616,0,0)"/>
+            </g>
+          </svg>
+        </a>
       </div>
       <nav>
         <Link 
