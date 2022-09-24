@@ -30,13 +30,8 @@ nav {
 }
 
 #logo {
-    font-size: 1.5rem;
+    height: 1.5rem;
     z-index: 2;
-    font-weight: 600;
-}
-
-#logo a {
-    color: var(--text-primary);
 }
 
 a {

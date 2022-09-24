@@ -4,7 +4,7 @@ import { CgMenuRightAlt, CgClose } from 'react-icons/cg';
 import { MdLightMode } from 'react-icons/md';
 import { GiNightSleep } from 'react-icons/gi';
 import { Link } from 'react-scroll';
-
+import Logo from '../../assets/logo.svg';
 
 const Navbar = ({switchTheme, theme}) => {
 
@@ -18,7 +18,9 @@ const Navbar = ({switchTheme, theme}) => {
   return (
     <div id='navbar' className='nav'>
       <div id='logo'>
-          <a href='/'>VM</a>
+          <a href='/'>
+            <img src={Logo} alt="" />
+          </a>
       </div>
       <nav>
         <Link 
