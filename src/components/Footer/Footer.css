@@ -1,4 +1,10 @@
-#footer {
-    height: 30vh;
+footer {
+    height: 3rem;
     width: 100%;
+    text-align: center;
+    color: var(--text-tertiary);
+}
+
+footer a {
+    color: var(--text-primary);
 }

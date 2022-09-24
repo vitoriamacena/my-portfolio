@@ -1,9 +1,11 @@
 import './Footer.css'
 
+
+
 const Footer = () => {
   return (
     <footer>
-      <div></div>
+      <small>Made with love by <a href='/'>Vitória Macena</a></small>
     </footer>
   )
 }
