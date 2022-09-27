@@ -30,12 +30,12 @@ nav {
 }
 
 #logo {
-    height: 1.5rem;
-    z-index: 2;
+    height: 1.3rem;
 }
 
 #logo svg {
-    width: 3rem;
+    width: 2.7rem;
+    z-index: 2;
 }
 
 a {
@@ -123,5 +123,13 @@ a {
 
     .nav-item a {
         font-size: 1.7rem;
+    }
+
+    #logo svg {
+        width: 2.2rem;
+    }
+
+    #logo {
+        height: 2rem;
     }
 }
